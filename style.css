@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.wkeys{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    height: 160px;
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 7px 1px 1px rgba(113, 113, 113,0.5);
+}
+
+.wkeys:hover{
+    box-shadow: 0px 1px 1px 1px rgba(113, 113, 113,0.5);
+    top: 10px;
+    background-color: rgb(223, 223, 223);
+}
