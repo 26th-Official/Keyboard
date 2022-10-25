@@ -1,8 +1,18 @@
 body{
+    font-family: "Raleway", sans-serif;
     background-color: rgb(255, 255, 255);
 }
 
+.text{
+    bottom: 8px;
+    position: absolute;
+    right: 8px;
+    pointer-events: none;
+}
+
 .wkeys{
+    z-index: 10;
+
     margin: auto;
     position: relative;
     display: inline-block;
@@ -13,7 +23,7 @@ body{
     box-shadow: 0px 7px 1px 1px rgba(113, 113, 113,0.5);
 }
 
-.wkeys:hover{
+.wkeys:active{
     box-shadow: 0px 1px 1px 1px rgba(113, 113, 113,0.5);
     top: 10px;
     background-color: rgb(223, 223, 223);
